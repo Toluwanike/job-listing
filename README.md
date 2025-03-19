@@ -34,7 +34,7 @@ A simple job listings application built with **Next.js** that displays job posti
 
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/your-username/job-listings-app.git
+   git clone https://github.com/toluwanike007/job-listings-app.git
 
 
 
