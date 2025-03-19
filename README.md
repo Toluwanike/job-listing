@@ -36,20 +36,28 @@ A simple job listings application built with **Next.js** that displays job posti
    ```sh
    git clone https://github.com/your-username/job-listings-app.git
 
-2.  **Navigate to the project directory:**
-  ```sh
-    cd job-listings-app
 
-3.  **Install dependencies:**
-  ```sh
-    npm install
 
-4.**Start the development server:**
-  ```sh
-    npm run dev
-5. **Open**
+2. **Navigate to the project directory:**
+   ```sh
+   cd job-listings-app
+   ```
 
- http://localhost:3000 in your browser.
+3. **Install dependencies:**
+   ```sh
+   npm install
+   ```
+
+4. **Start the development server:**
+   ```sh
+   npm run dev
+   ```
+
+5. **Open in your browser:**
+   ```
+   http://localhost:3000
+   ```
+
 
 🏗 Built With
 Next.js - React framework for SSR & routing.
