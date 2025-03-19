@@ -36,17 +36,21 @@ A simple job listings application built with **Next.js** that displays job posti
    ```sh
    git clone https://github.com/your-username/job-listings-app.git
 
-Navigate to the project directory:
+2.  **Navigate to the project directory:**
   ```sh
     cd job-listings-app
-Install dependencies:
+
+3.  **Install dependencies:**
   ```sh
     npm install
-Start the development server:
+
+4.**Start the development server:**
   ```sh
     npm run dev
-Open
+5. **Open**
+
  http://localhost:3000 in your browser.
+
 🏗 Built With
 Next.js - React framework for SSR & routing.
 Tailwind CSS - For styling.
