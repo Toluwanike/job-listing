@@ -5,7 +5,7 @@ import { Briefcase, Info } from "lucide-react";
 import AppLayout from "@/components/layout/AppLayout";
 import Button from "@/components/common/Button";
 import { cn } from "@/lib/utils";
-import { toast } from "@/components/ui/sonner";
+// import { toast } from "@/components/ui/sonner";
 
 const PostJob = () => {
   const navigate = useNavigate();
@@ -31,7 +31,7 @@ const PostJob = () => {
     
     // Simple validation
     if (!formData.title || !formData.company || !formData.description) {
-      toast.error("Please fill in all required fields");
+      // toast.error("Please fill in all required fields");
       return;
     }
     
@@ -40,7 +40,7 @@ const PostJob = () => {
     // Simulate form submission
     setTimeout(() => {
       setIsSubmitting(false);
-      toast.success("Job posted successfully!");
+      // toast.success("Job posted successfully!");
       
       // Reset form and navigate to homepage
       setFormData({

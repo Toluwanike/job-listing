@@ -14,7 +14,7 @@ const JobCard = ({ job, className }: JobCardProps) => {
   const [isHovered, setIsHovered] = useState(false);
   
   return (
-    <Link 
+    <Link
       to={`/job/${job.id}`}
       className={cn(
         "block relative w-full rounded-xl overflow-hidden",

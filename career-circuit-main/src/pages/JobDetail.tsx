@@ -6,7 +6,7 @@ import AppLayout from "@/components/layout/AppLayout";
 import Button from "@/components/common/Button";
 import { useJobsData } from "@/hooks/useJobsData";
 import { cn } from "@/lib/utils";
-import { toast } from "@/components/ui/sonner";
+// import { toast } from "@/components/ui/sonner";
 
 const JobDetail = () => {
   const { id } = useParams<{ id: string }>();
@@ -46,7 +46,7 @@ const JobDetail = () => {
     // Simulate application process
     setTimeout(() => {
       setIsApplying(false);
-      toast.success("Application submitted successfully!");
+      // toast.success("Application submitted successfully!");
     }, 1500);
   };
   
